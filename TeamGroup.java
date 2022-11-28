@@ -35,18 +35,9 @@ public class TeamGroup implements TeamComponent{
 		// TODO Auto-generated method stub
 		System.out.println(getTeamName());
 		for(TeamComponent T: teams) {
-			
 			System.out.println("Team: "+ T.getTeamName()+ ", Number of Athletes: "+ T.getNumberOfAthletes());
 			}
 		}
-//	Iterator teamIterator=teams.iterator();
-//	while(teamIterator.hasNext()) {
-//		TeamComponent teamInfo=(TeamComponent) teamIterator.next();
-//		teamInfo.getNameAndNumberOfAthletes();
-//		System.out.println("Team: "+ getTeamName()+ ", Number of Athletes: "+ getNumberOfAthletes());
-//
-//	}
-	
 	
 	
 	@Override
@@ -54,7 +45,6 @@ public class TeamGroup implements TeamComponent{
 		// TODO Auto-generated method stub
 		System.out.println(getTeamName());
 		for(TeamComponent T: teams) {
-		
 				System.out.println("Team: "+ T.getTeamName()+ ", Number of Gold Medals: "+ T.getNumberOfGoldMedals());
 			}
 		}
