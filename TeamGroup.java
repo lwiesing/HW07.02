@@ -9,7 +9,7 @@ public class TeamGroup implements TeamComponent{
 	private int numberOfAthletes;
 	private int numberOfGoldMedals;
 	
-	List<TeamComponent> teams = new ArrayList<>();
+	private List<TeamComponent> teams = new ArrayList<>();
 	
 	public TeamGroup(String pteamName, int pnumberOfAthletes, int pnumberOfGoldMedals) {
 		teamName=pteamName;
